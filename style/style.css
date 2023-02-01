@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #B68C5A;
+    --background-grey: #F3F3F3;
+    --section-title: #414040;
+    --paragraph: #707070;
+    --black-footer: #111111;
+    --white-footer: #CFCFCF;
+}
+
+/* common style */
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+.section-title {
+    color: var(--section-title);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.section-header {
+    width: 700px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+p {
+    color: var(--paragraph);
+}
+
+.section-gap {
+    margin-bottom: 120px;
+}
+
+/* Header */
+nav {
+    font-family: 'Poppins';
+}
+
+.free-consultation {
+    padding: 20px 30px;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.banner-input {
+    width: 420px;
+    padding: 20px;
+}
+
+.banner-search {
+    padding: 20px 40px;
+    background-color: var(--primary-color);
+    border: 0;
+}
+
+
+/* Legal Area */
+
+.legal-card-img {
+    height: 72px;
+    width: 75px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.legal-card-border:hover {
+    background: linear-gradient(#E7E7E7, #ffffff);
+}
+
+.legal-card-border1 {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/* Client Area */
+
+.client-avatar {
+    height: 70px;
+    width: 70px;
+}
+
+.carousel-imgs {
+    height: 500px;
+    opacity: 40%;
+}
+
+.carousel-item {
+    background-image: url('../images/Rectangle\ 7.png');
+}
+
+.carousel-inner {
+    background: black !important;
+    width: 100% !important;
+}
+
+/* FAQ */
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../images/minus-solid.svg') !important;
+}
+
+.accordion-button::after {
+    background-image: url('../images/plus-solid.svg') !important;
+}
+
+/* Contact With Us */
+.contact-details {
+    background-color: var(--background-grey);
+}
+
+.contact-us-submit {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    border: 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--black-footer);
+    padding: 120px 0;
+}
+
+footer div p,
+.footer-links {
+    color: var(--white-footer)
+}
+
+.footer-input {
+    padding: 20px 30px;
+}
+
+.footer-submit {
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin-left: -20px;
+}
